@@ -1,0 +1,17 @@
+header{
+    background-color: #242a36;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px; /* Espaçãmento para os textos do menu, 1 - Para cima 2 - Para baixo 3 - Para direita 4 - Para esquerda*/
+    
+}
+
+nav a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold; /* Negrito - Peso da fonte*/
+    font-size: 22px;
+    text-decoration: none; /* Tira o sublinhado dos textos com link*/
+}
