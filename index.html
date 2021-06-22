@@ -5,13 +5,25 @@
 <head>
     <meta charset="UTF-8"> <!-- Importação de caracteres de linguagens-->
     <title>Tech em Casa</title>
+
+    <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css"> <!-- Arquivo com as definições que devem ser seguidas pelo conteudo-->
 
 </head>
 
 <body>
     <header>
-        <h1 class="titulo-principal"> Tech em Casa </h1>
+        <div class="box">
+            <h1><img src="midia/bolacha.png" width="250" height="250"></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a> </li>
+
+                </ul>
+            </nav>
+        </div>
     </header>
     <img id="banner" src="midia/table.jpg">
     <div class="principal">
@@ -33,7 +45,7 @@
 
     <div class="beneficios">
         <h3 class="titulo-centralizado">Benefícios</h3>
-        <ul>
+        <ul class="listB">
             <li class="itens"> Atendimento aos clientes</li>
             <li class="itens">Localização</li>
             <li class="itens">Esclarecimento</li>
