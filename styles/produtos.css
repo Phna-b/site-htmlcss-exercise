@@ -28,6 +28,12 @@ nav a{
     text-decoration: none; /* Tira o sublinhado dos textos com link*/
 }
 
+nav a:hover{ /*Mapeando comportamento hover no a da parte de navegação, Faz com que quando o mouse esteja em cima disso o estilo mude a cor para roxo e sublinhado*/
+    color: rgb(107, 2, 206);
+    text-decoration: underline;
+
+}
+
 .produtos{
     width: 940px;
     margin: 0 auto;
@@ -42,11 +48,32 @@ nav a{
     margin: 0 1.5%; /*Margem interna de 0 para cima e baixo e 1.5% para os lados*/
     padding: 30px 20px; /*Espaçamento interno*/
     box-sizing: border-box; /*Define o width como permanente e as alterações seguintes são feitas dentro dele*/
+    /*Esses três aspectos são necessarios para o funcionamento e a criação de uma borda*/
+    border-color: #242a36;
+    border-width: 2px;
+    border-style: solid;
+    /*Pode ser declarada de maneira unificada*/
+    border: 2px solid #242a36;
+    border-radius: 10px;
+}
+
+.produtos li:hover{
+    border-color: rgb(107, 2, 206);
+    
+}
+
+.produtos li:active{ /*Quando o for clickado*/
+    border-color: coral;
+}
+
+.produtos li:hover h2{  /*Quando o mouse estiver em cima da lista alterar o h2 dela*/
+    font-size: 34px;
 }
 
 .produtos h2{
     font-size: 30px;
     font-weight: bold;
+    margin-bottom: 2px;
 }
 
 .produto-desc{
