@@ -28,3 +28,33 @@ nav a{
     text-decoration: none; /* Tira o sublinhado dos textos com link*/
 }
 
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0; /*Espaçamento interno*/
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%; /*Margem interna de 0 para cima e baixo e 1.5% para os lados*/
+    padding: 30px 20px; /*Espaçamento interno*/
+    box-sizing: border-box; /*Define o width como permanente e as alterações seguintes são feitas dentro dele*/
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-desc{
+    font-size: 18px;
+}
+
+.produto-preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px; /*Afasta o preço da descrição*/
+}
