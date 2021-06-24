@@ -96,3 +96,16 @@ em strong{
 .imagemBeneficios{
     width: 50%;
 }
+
+footer{
+    text-align: center;
+    background-color: #242a36;
+    padding: 30px 0;
+}
+
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
