@@ -33,6 +33,13 @@ nav a{
     text-decoration: none; /* Tira o sublinhado dos textos com link*/
 }
 
+nav a:hover{ /*Mapeando comportamento hover no a da parte de navegação, Faz com que quando o mouse esteja em cima disso o estilo mude a cor para roxo e sublinhado*/
+    color: rgb(107, 2, 206);
+    text-decoration: underline;
+
+}
+
+
 .principal{
     background-color: #242a36;
     padding: 30px;

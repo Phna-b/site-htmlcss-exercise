@@ -85,3 +85,7 @@ nav a:hover{ /*Mapeando comportamento hover no a da parte de navegação, Faz co
     font-weight: bold;
     margin-top: 10px; /*Afasta o preço da descrição*/
 }
+
+footer{
+    text-align: center;
+}
